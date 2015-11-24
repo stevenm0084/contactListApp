@@ -6,9 +6,6 @@ var bodyParser = require('body-parser');
 
 var PORT_NUM = 3000;
 
-/*app.get('/', function (request, response){
- response.send("Hello world from server.js");
- });*/
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.json());
 
